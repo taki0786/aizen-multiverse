@@ -1,4 +1,4 @@
-https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
+git+https://github.com/sanjisama6287/pyrogram
 TgCrypto
 pyromod==1.5
 pymongo
