@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7747828485:AAF8Jl6RD8nnihhphgGV__WmCwDb8DrbQOQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7045740764:AAFBZXStfn-CZGAQstxxY5_iBhUFsC5DHwA")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29895250"))
@@ -19,20 +19,20 @@ APP_ID = int(os.environ.get("APP_ID", "29895250"))
 API_HASH = os.environ.get("API_HASH", "29ca1e2311efdf950eea03a6ae2bc8ee")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002429506409"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002016717904"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002487448368"))
-CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002488627180"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002403716155"))
+CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002431157485"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6685624393"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1439890119"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "aizen_file_store_bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "Hitokiri_Battousai_Bot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002151681537"))
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>𝐊ᴏɴɴɪᴄʜɪᴡᴀ!! {mention} ⚡,\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/+J8zdYZR9O245MmM1'>𝐀ɴɪᴍᴇ 𝐌ᴜʟᴛɪᴠᴇʀsᴇ</a></b>")
 try:
     ADMINS=[6727550037]
-    for x in (os.environ.get("ADMINS", "6496242324 6772161432 6685624393 7162615398 1683225887 6727550037 7827448605").split()):
+    for x in (os.environ.get("ADMINS", "5696112220 7162615398").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -64,7 +64,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @Anime_Multiverse_Hindi"
+USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @Anime_Raven"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6685624393)
